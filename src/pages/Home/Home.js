@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <Container>
       <DiApple size={70} />
-      <Title>Wellcome to your private Phonebook!</Title>
+      <Title>Wellcome to your Phonebook!</Title>
       <SubTitle>
         {isLoggedIn
           ? `${upFirstLetter(name)}, it is safe place to keep your data`
-          : 'To enter, please log in or register'}
+          : 'To enter, please register or log in'}
       </SubTitle>
     </Container>
   );
