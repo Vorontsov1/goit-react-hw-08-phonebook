@@ -5,9 +5,8 @@ export const Container = styled.div`
   position: relative;
   padding: 20px;
   margin: 0 auto;
-  border: 1px solid black;
-  border-radius: 10px;
-  border-color: #5e91f2;
+  border: 5px solid #dd6722;
+  border-radius: 50px;
 `;
 
 export const Title = styled.h1`
@@ -15,5 +14,5 @@ export const Title = styled.h1`
   text-align: center;
   font-weight: 700;
   font-size: 30px;
-  color: #003b8e;
+  color: #dd6722;
 `;

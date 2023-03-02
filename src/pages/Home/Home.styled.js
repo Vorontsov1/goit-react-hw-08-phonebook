@@ -8,18 +8,18 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 20px;
   svg {
-    color: #5e92f3;
+    color: #dd6722;
   }
 `;
 
 export const Title = styled.h1`
   text-align: center;
   font-size: 40px;
-  color: #5e92f3;
+  color: #dd6722;
 `;
 
 export const SubTitle = styled.h2`
   text-align: center;
   font-size: 20px;
-  color: #5e92f3;
+  color: #dd6722;
 `;

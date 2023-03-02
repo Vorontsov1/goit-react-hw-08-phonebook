@@ -79,7 +79,7 @@ export default function ContactForm({ onClose }) {
 
               '& .MuiOutlinedInput-root': {
                 '&.Mui-focused fieldset': {
-                  borderColor: '#b36f32',
+                  borderColor: '#fecb44',
                 },
               },
             }}
@@ -122,14 +122,21 @@ export default function ContactForm({ onClose }) {
                 gap: '20px',
                 mt: 3,
                 mb: 2,
-                bgcolor: '#f9ae17',
+                bgcolor: '#fecb44',
+                '&:hover': {
+                  bgcolor: '#b13a18',
+                  boxShadow: '0px 0px 5px #e75f28',
+                },
+                '&:focus': {
+                  bgcolor: '#b13a18',
+                  boxShadow: '0px 0px 5px #e75f28',
+                },
               }}
             >
               {operation === 'add' ? (
                 <>
                   <LoaderContact
                     color={'#f9ae17'}
-                    // color={'#003b8e'}
                     size={20}
                   />
                   <span>Add ... </span>
