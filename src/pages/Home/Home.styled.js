@@ -8,7 +8,7 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 20px;
   svg {
-    color: #dd6722;
+    color: #fecb44;
   }
 `;
 
@@ -20,6 +20,6 @@ export const Title = styled.h1`
 
 export const SubTitle = styled.h2`
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   color: #dd6722;
 `;

@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import { selectIsLoggedIn, selectUser } from 'redux/selectors';
-import { RiContactsBookLine } from 'react-icons/ri';
+import { DiApple } from 'react-icons/di';
 import { upFirstLetter } from 'utils/index';
 import { Container, Title, SubTitle } from './Home.styled';
 
@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <Container>
-      <RiContactsBookLine size={50} />
+      <DiApple size={70} />
       <Title>Wellcome to your private Phonebook!</Title>
       <SubTitle>
         {isLoggedIn
