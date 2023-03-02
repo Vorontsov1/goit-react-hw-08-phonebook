@@ -5,7 +5,7 @@ import { selectError, selectOperation, selectIsLoading } from 'redux/selectors';
 
 import IconButton from 'components/IconButton';
 import Modal from 'components/Modal';
-import { AiOutlinePlus } from 'react-icons/ai';
+import { TbFolderPlus } from 'react-icons/tb';
 
 import ContactList from 'components/ContactList';
 import { LoaderContacts } from 'components/Loader/Loader';
@@ -30,7 +30,7 @@ const Contacts = () => {
   return (
     <Container>
       <IconButton onClick={toggleModal} aria-label="Add contacts">
-        <AiOutlinePlus width="40" height="40" fill="#003b8e" />
+        <TbFolderPlus width="40" height="40" fill="#b13a18" />
       </IconButton>
       {isShowModal && <Modal onClose={toggleModal} />}
 
