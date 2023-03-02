@@ -29,6 +29,7 @@ const SearchIconWrapper = styled('div')(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
+  color: '#6a180a',
 }));
 
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
@@ -66,7 +67,7 @@ const Filter = () => {
           </SearchIconWrapper>
           <StyledInputBase
             onChange={changeFilter}
-            sx={{ color: '#ffffff' }}
+            sx={{ color: '#6a180a' }}
             placeholder="Search…"
             inputProps={{ 'aria-label': 'search' }}
           />

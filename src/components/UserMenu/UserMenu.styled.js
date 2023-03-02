@@ -15,17 +15,16 @@ export const Username = styled.p`
 export const Button = styled.button`
   padding: 12px;
   border: none;
-  border-radius: 5px;
-  /* width: 120px; */
+  border-radius: 50px;
   background-color: inherit;
-  color: #003c8f;
+  color: #ffffff;
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 800;
   text-align: center;
   cursor: pointer;
   &:hover,
   &:focus {
-    background-color: #63a4ff;
+    background-color: #b13a18;
     color: #ffffff;
   }
 `;

@@ -8,10 +8,12 @@ export const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top:10px;
   padding: 10px;
   margin-bottom: 16px;
-  border-bottom: 1px solid #5e92f3;
-  background-color: #5e92f3;
+  border-bottom: 10px solid #b13a18;
+  background-color: #fecb44;
+  border-radius: 50px;
 `;
 
 export const Searchbox = styled.header`
@@ -27,7 +29,7 @@ export const Searchbox = styled.header`
   padding-left: 24px;
   margin-bottom: 20px;
   padding-bottom: 12px;
-  color: #fff;
-  background-color: #3f51b5;
+  color: #b13a18;
+  background-color: #dd6722;
 `;
 

@@ -64,7 +64,7 @@ export default function ContactForm({ onClose }) {
             padding: '20px',
           }}
         >
-          <Typography component="h1" variant="30px" sx={{ color: '#003b8e' }}>
+          <Typography component="h2" variant="30px" sx={{ color: '#fecb44' }}>
             New Contact
           </Typography>
           <Box
@@ -74,12 +74,12 @@ export default function ContactForm({ onClose }) {
             sx={{
               mt: 3,
               '& label.Mui-focused': {
-                color: '#5e92f3',
+                color: '#f9ae17',
               },
 
               '& .MuiOutlinedInput-root': {
                 '&.Mui-focused fieldset': {
-                  borderColor: '#5e92f3',
+                  borderColor: '#b36f32',
                 },
               },
             }}
@@ -122,20 +122,20 @@ export default function ContactForm({ onClose }) {
                 gap: '20px',
                 mt: 3,
                 mb: 2,
-                bgcolor: '#5e92f3',
+                bgcolor: '#f9ae17',
               }}
             >
               {operation === 'add' ? (
                 <>
                   <LoaderContact
-                    color={'#ffffff'}
+                    color={'#f9ae17'}
                     // color={'#003b8e'}
                     size={20}
                   />
                   <span>Add ... </span>
                 </>
               ) : (
-                'Add contact'
+                'Add your contact'
               )}
             </Button>
           </Box>

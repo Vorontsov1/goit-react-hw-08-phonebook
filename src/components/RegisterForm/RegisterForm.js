@@ -51,7 +51,7 @@ const RegisterForm = () => {
           <Avatar sx={{ m: 1, bgcolor: '#5e92f3' }}>
             <LockOutlinedIcon />
           </Avatar>
-          <Typography component="h1" variant="h5">
+          <Typography component="h1" variant="h5" color="#b13a18">
             Sign up
           </Typography>
           <Box
@@ -61,12 +61,12 @@ const RegisterForm = () => {
             sx={{
               mt: 3,
               '& label.Mui-focused': {
-                color: '#5e92f3',
+                color: '#b13a18',
               },
 
               '& .MuiOutlinedInput-root': {
                 '&.Mui-focused fieldset': {
-                  borderColor: '#5e92f3',
+                  borderColor: '#b13a18',
                 },
               },
             }}
@@ -112,7 +112,7 @@ const RegisterForm = () => {
               type="submit"
               fullWidth
               variant="contained"
-              sx={{ mt: 3, mb: 2, bgcolor: '#5e92f3' }}
+              sx={{ mt: 3, mb: 2, bgcolor: '#fecb44' }}
             >
               Sign up
             </Button>

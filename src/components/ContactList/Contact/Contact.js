@@ -28,7 +28,7 @@ export const Contact = ({ contact: { id, name, number } }) => {
 
          <Text>
            {name}
-           <span>Phone: {number}</span>
+           <span>Number: {number}</span>
          </Text>
 
          <Button type="button" onClick={handleDelete}>
@@ -39,7 +39,7 @@ export const Contact = ({ contact: { id, name, number } }) => {
                size={18}
              />
            ) : (
-             <RiDeleteBin5Fill size={28} />
+             <RiDeleteBin5Fill size={28} color={'#dd6722'} />
            )}
          </Button>
        </ContactWrapper>

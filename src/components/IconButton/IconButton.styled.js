@@ -9,7 +9,7 @@ export const Button = styled.button`
   border-radius: 50%;
   color: white;
   font: inherit;
-  background-color: #5e92f3;
+  background-color: #fecb44;
   cursor: pointer;
   display: inline-flex;
   align-items: center;

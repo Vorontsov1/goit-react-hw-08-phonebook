@@ -5,8 +5,8 @@ export const StyledNavLink = styled(NavLink)`
   display: inline-block;
   text-decoration: none;
   padding: 12px;
-  font-weight: 500;
-  color: #003c8f;
+  font-weight: 800;
+  color: white;
   &:hover,
   &:focus {
     color: #1565c0;
