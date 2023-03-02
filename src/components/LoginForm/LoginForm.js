@@ -44,10 +44,10 @@ const LoginForm = () => {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: '#5e92f3' }}>
+          <Avatar sx={{ m: 1, bgcolor: '#fecb44' }}>
             <LockOutlinedIcon />
           </Avatar>
-          <Typography component="h1" variant="h5">
+          <Typography component="h1" variant="h5" color="#fecb44">
             Sign in
           </Typography>
           <Box
@@ -57,12 +57,12 @@ const LoginForm = () => {
             sx={{
               mt: 3,
               '& label.Mui-focused': {
-                color: '#5e92f3',
+                color: '#fecb44',
               },
 
               '& .MuiOutlinedInput-root': {
                 '&.Mui-focused fieldset': {
-                  borderColor: '#5e92f3',
+                  borderColor: '#fecb44',
                 },
               },
             }}
@@ -96,7 +96,19 @@ const LoginForm = () => {
               type="submit"
               fullWidth
               variant="contained"
-              sx={{ mt: 3, mb: 2, bgcolor: '#5e92f3' }}
+              sx={{
+                mt: 3,
+                mb: 2,
+                bgcolor: '#fecb44',
+                '&:hover': {
+                  bgcolor: '#b13a18',
+                  boxShadow: '0px 0px 5px #e75f28',
+                },
+                '&:focus': {
+                  bgcolor: '#b13a18',
+                  boxShadow: '0px 0px 5px #e75f28',
+                },
+              }}
             >
               Sign in
             </Button>

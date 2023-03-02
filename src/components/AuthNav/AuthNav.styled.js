@@ -9,7 +9,7 @@ export const StyledNavLink = styled(NavLink)`
   color: white;
   &:hover,
   &:focus {
-    color: #1565c0;
+    color: #b13a18;
   }
   &.active {
     color: #ffffff;

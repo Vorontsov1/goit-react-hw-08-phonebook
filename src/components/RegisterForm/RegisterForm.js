@@ -48,7 +48,7 @@ const RegisterForm = () => {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: '#5e92f3' }}>
+          <Avatar sx={{ m: 1, bgcolor: '#b13a18' }}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5" color="#b13a18">
@@ -112,7 +112,19 @@ const RegisterForm = () => {
               type="submit"
               fullWidth
               variant="contained"
-              sx={{ mt: 3, mb: 2, bgcolor: '#fecb44' }}
+              sx={{
+                mt: 3,
+                mb: 2,
+                bgcolor: '#b13a18',
+                '&:hover': {
+                  bgcolor: '#fecb44',
+                  boxShadow: '0px 0px 5px#b13a18',
+                },
+                '&:focus': {
+                  bgcolor: '#fecb44',
+                  boxShadow: '0px 0px 5px #e75f28',
+                },
+              }}
             >
               Sign up
             </Button>
